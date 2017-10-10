@@ -1,7 +1,7 @@
 from copy import deepcopy
 
 from django.db import models
-from django.utils.datastructures import SortedDict
+from collections import OrderedDict as SortedDict
 from django.utils.encoding import StrAndUnicode
 from django.utils.safestring import mark_safe
 
